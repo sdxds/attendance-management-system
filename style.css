@@ -238,3 +238,20 @@ th,
 p {
   font-size: 13px;
 }
+.card-user .author {
+  text-align: center;
+  text-transform: none;
+  /* margin-top: -77px; */
+}
+
+.card .avatar {
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.sidebar {
+  display: none;
+}
