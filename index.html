@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -16,67 +16,38 @@
     "> -->
     <link rel="stylesheet" href="https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap4.min.css
     ">
-    <link rel="stylesheet" href="style.css">
-    <title>Admin Dashboard</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <title>Attendance Management System</title>
   </head>
   <body>
     
     <!-- navbar -->
-    <nav class="navbar navbar-expand-md navbar-light">
-      <button class="navbar-toggler ml-auto mb-2 bg-light" type="button" data-toggle="collapse" data-target="#myNavbar">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">A.M.S</a>
+      <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="myNavbar">
-        <div class="container-fluid">
-          <div class="row"> -->
-            <!-- sidebar -->
-            <div class="col-xl-2 col-lg-3 col-md-4 sidebar fixed-top">
-              <a href="#" class="navbar-brand text-white d-block mx-auto text-center py-3 mb-4 bottom-border">CodeAndCreate</a>
-              <div class="bottom-border pb-3">
-                <img src="images/admin.jpeg" width="50" class="rounded-circle mr-3">
-                <a href="#" class="text-white">Helen Smith</a>
-              </div>
-              <ul class="navbar-nav flex-column mt-4">
-                <li class="nav-item"><a href="#" class="nav-link text-white p-3 mb-2 current"><i class="fas fa-home text-light fa-lg mr-3"></i>Dashboard</a></li>
-                <li class="nav-item"><a href="#" class="nav-link text-white p-3 mb-2 sidebar-link"><i class="fas fa-user text-light fa-lg mr-3"></i>Profile</a></li>
-                <li class="nav-item"><a href="#" class="nav-link text-white p-3 mb-2 sidebar-link"><i class="fas fa-envelope text-light fa-lg mr-3"></i>Inbox</a></li>
-                <li class="nav-item"><a href="#" class="nav-link text-white p-3 mb-2 sidebar-link"><i class="fas fa-shopping-cart text-light fa-lg mr-3"></i>Sales</a></li>
-                <li class="nav-item"><a href="#" class="nav-link text-white p-3 mb-2 sidebar-link"><i class="fas fa-chart-line text-light fa-lg mr-3"></i>Analytics</a></li>
-                <li class="nav-item"><a href="#" class="nav-link text-white p-3 mb-2 sidebar-link"><i class="fas fa-chart-bar text-light fa-lg mr-3"></i>Charts</a></li>
-                <li class="nav-item"><a href="#" class="nav-link text-white p-3 mb-2 sidebar-link"><i class="fas fa-table text-light fa-lg mr-3"></i>Tables</a></li>
-                <li class="nav-item"><a href="#" class="nav-link text-white p-3 mb-2 sidebar-link"><i class="fas fa-wrench text-light fa-lg mr-3"></i>Settings</a></li>
-                <li class="nav-item"><a href="#" class="nav-link text-white p-3 mb-2 sidebar-link"><i class="fas fa-file-alt text-light fa-lg mr-3"></i>Documentation</a></li>
-              </ul>
-            </div>
-            <!-- end of sidebar -->
-
-            <!-- top-nav -->
-            <!-- <div class="col-xl-10 col-lg-9 col-md-8 ml-auto bg-dark fixed-top py-2 top-navbar">
-              <!-- <div class="row align-items-center">
-                <div class="col-md-4">
-                  <h4 class="text-light text-uppercase mb-0">Dashboard</h4>
-                </div>
-                <div class="col-md-5">
-                  <form>
-                    <div class="input-group">
-                      <input type="text" class="form-control search-input" placeholder="Search...">
-                      <button type="button" class="btn btn-white search-button"><i class="fas fa-search text-danger"></i></button>
-                    </div>
-                  </form>
-                </div>
-                <div class="col-md-3">
-                  <ul class="navbar-nav">
-                    <li class="nav-item icon-parent"><a href="#" class="nav-link icon-bullet"><i class="fas fa-comments text-muted fa-lg"></i></a></li>
-                    <li class="nav-item icon-parent"><a href="#" class="nav-link icon-bullet"><i class="fas fa-bell text-muted fa-lg"></i></a></li>
-                    <li class="nav-item ml-md-auto"><a href="#" class="nav-link" data-toggle="modal" data-target="#sign-out"><i class="fas fa-sign-out-alt text-danger fa-lg"></i></a></li>
-                  </ul>
-                </div>
-              </div>
-            </div> --> -->
-            <!-- end of top-nav -->
-           </div>
-        </div>
-      </div>
+      </button> -->
+    
+      <!-- <div class="navbar-collapse" id="navbarSupportedContent"> -->
+        <ul class="navbar-nav ml-auto">
+          <!-- <li class="nav-item">
+            <a class="nav-link " href="#" tabindex="-1">DashBoard</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="#" tabindex="-1">Attendance</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="#" tabindex="-1">Faculty List</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="#" tabindex="-1">Holidays</a>
+          </li> -->
+          <li class="nav-item">
+            <a class="nav-link " href="#" tabindex="-1"><img class="user-image" src="./images/cust1.jpeg" alt="">
+              Sujoy Dev</a>
+          </li>
+        </ul>
+      <!-- </div> -->
     </nav>
     <!-- end of navbar -->
 
@@ -101,12 +72,12 @@
     <!-- end of modal -->
 
     <!-- cards -->
-    <section>
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-xl-10 col-lg-9 col-md-8 ml-auto">
-            <div class="row pt-md-5 mt-md-3 mb-5">
-              <div class="col-xl-3 col-sm-6 p-2">
+    <div class="container-fluid">
+      
+    <section style="margin-top:75px;">
+     
+            <div class="row">
+              <div class="col-lg-3 col-sm-6  ">
                 <div class="card card-common">
                   <div class="card-body">
                     <div class="d-flex justify-content-between">
@@ -124,7 +95,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-xl-3 col-sm-6 p-2">
+              <div class="col-lg-3 col-sm-6  ">
                 <div class="card card-common">
                   <div class="card-body">
                     <div class="d-flex justify-content-between">
@@ -142,7 +113,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-xl-3 col-sm-6 p-2">
+              <div class="col-lg-3 col-sm-6  ">
                 <div class="card card-common">
                   <div class="card-body">
                     <div class="d-flex justify-content-between">
@@ -160,7 +131,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-xl-3 col-sm-6 p-2">
+              <div class="col-lg-3 col-sm-6  ">
                 <div class="card card-common">
                   <div class="card-body">
                     <div class="d-flex justify-content-between">
@@ -179,17 +150,16 @@
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-      </div>
+          
+     
     </section>
     <!-- end of cards -->
 
     <!-- tables -->
     <section>
-      <div class="container-fluid">
+     
         <div class="row">
-            <div class="col-md-11">
+            <div class="col-12">
               <div class="card">
                 <div class="card-header">
                   <h4 class="card-title"> Simple Table</h4>
@@ -615,11 +585,9 @@
               </div>
             </div>
             </div>
-      
-      </div>
     </section>
     <section>
-      <div class="container-fluid">
+     
         <div class="row">
           <div class="col-md-12">
             <div class="card ">
@@ -638,15 +606,14 @@
               </div>
             </div>
           </div>
-      </div>
     </section>
     <!-- end of tables -->
    
     <!-- progress / task list -->
     <section>
-      <div class="container-fluid">
+     
         <div class="row">
-              <div class="col-xl-6 col-12">
+              <div class="col-lg-6 col-12">
                 <h4 class="text-muted p-3 mb-3">Notifications:</h4>
                 <div class="container-fluid bg-white">
                   <div class="row py-3 mb-4 task-border align-items-center">
@@ -730,11 +697,11 @@
                 </div>
               </div>
         </div>
-      </div>
+     
     </section>
     <section>
 
-      <div class="container-fluid">
+     
         <div class="row">
           <div class="col-lg-4 col-md-6 col-sm-11 col-xs-12">
             <div class="card card-user">
@@ -787,7 +754,7 @@
                 <h5 class="card-title">Edit Profile</h5>
               </div>
               <div class="card-body">
-                <form>
+                <form action="./action/attendance_add.php" method="POST" >
                   <div class="row">
                     <div class="col-md-5">
                       <div class="form-group">
@@ -840,7 +807,7 @@
                     <div class="col-md-4">
                       <div class="form-group">
                         <label>Country</label>
-                        <input type="text" class="form-control" placeholder="Country" value="Australia">
+                        <input type="text" class="form-control" placeholder="Country" value="Australia" required>
                       </div>
                     </div>
                     <div class="col-md-4">
@@ -860,67 +827,133 @@
             </div>
           </div>
         </div>
-      </div>
+      
     </section>
+    <div class="card user-card" ></div>
+    <!-- employee -->
     <button class="click">submit</button>
-    <div class="modal fade" id="addnew" data-backdrop="static" data-keyboard="false">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h4 class="modal-title"><b>Add Attendance</b></h4>
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                      <span aria-hidden="true">&times;</span></button>
-                </div>
-                <div class="modal-body">
-                  <form class="form-group" method="POST" action="attendance_add.php">
-                    <div class="form-group">
-                        <label for="employee" control-label">Employee ID</label>
-    
-                        <div class="col-sm-9">
-                          <input type="text" class="form-control" id="employee" name="employee" required>
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label for="datepicker_add" control-label">Date</label>
-    
-                        <div class="col-sm-9"> 
-                          <div class="date">
-                            <input type="text" class="form-control" id="datepicker_add" name="date" required>
-                          </div>
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label for="time_in" control-label">Time In</label>
-    
-                        <div class="col-sm-9">
-                          <div class="bootstrap-timepicker">
-                            <input type="text" class="form-control timepicker" id="time_in" name="time_in">
-                          </div>
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label for="time_out" control-label">Time Out</label>
-    
-                        <div class="col-sm-9">
-                          <div class="bootstrap-timepicker">
-                            <input type="text" class="form-control timepicker" id="time_out" name="time_out">
-                          </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-warning btn-flat pull-left" data-dismiss="modal"><i class="fa fa-close"></i> Close</button>
-                  <button type="submit" class="btn btn-success btn-flat" name="add"><i class="fa fa-save"></i> Save</button>
-                  </form>
-                </div>
+<!-- <div class="modal fade" id="addnew" data-backdrop="static" data-keyboard="false">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title"><b>Add Attendance</b></h4>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span></button>
             </div>
-        </div>
-    </div>
-    <!-- end of progress / task list -->
+            <div class="modal-body">
+<form method="POST" action="./action/faculty_add.php">
+<div class="form-group">
+    <label for="code" class="control-label">Employee Code</label>
 
-    <!-- end of activities / quick post -->
-   
     
+      <input type="text" class="form-control" id="code" name="code" required>
+    </div>
+
+<div class="form-group">
+    <label for="name" class="control-label">Name</label>
+
+   
+      <input type="text" class="form-control" id="name" name="name" required>
+    </div>
+<div class="form-group">
+    <label for="email" class="control-label">Email</label>
+
+    
+      <input type="text" class="form-control" id="email" name="email" required>
+    </div>
+<div class="form-group">
+    <label for="phone" class="control-label">Phone</label>
+
+    
+      <input type="text" class="form-control" id="phone" name="phone" required>
+    </div>
+<div class="form-group">
+    <label for="dept" class="control-label">Dept</label>
+      <select name="dept" id="dept" class="form-control">
+        <option value="IT">IT</option>
+        <option value="Comp">Comp</option>
+        <option value="EXTC">EXTC</option>
+        <option value="Mech">Mech</option>
+        <option value="Civil">Civil</option>
+        <option value="Other">Other</option>
+    </select>
+
+   <div class="invalid-feedback">More example invalid feedback text</div>
+</div> 
+</form>            
+</div>
+<div class="modal-footer">
+<button type="button" class="btn btn-warning btn-flat pull-left" data-dismiss="modal"><i class="fa fa-close"></i> Close</button>
+<button type="button" class="btn btn-danger btn-flat pull-left" data-dismiss="modal"><i class="far fa-trash-alt"></i> Remove</button>
+<button type="submit" class="btn btn-primary btn-flat" name="add"><i class="fa fa-save"></i> Save</button>
+
+</div>
+</div>
+</div>
+</div> -->
+
+
+
+<!-- attendance -->
+
+<div class="modal fade" id="addnew" data-backdrop="static" data-keyboard="false">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<h4 class="modal-title"><b>Attendance</b></h4>
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+  <span aria-hidden="true">&times;</span></button>
+</div>
+<div class="modal-body">
+<form method="POST" action="attendance_add.php">
+<div class="form-group">
+    <label for="code" class="control-label">Employee Code</label>
+
+   
+      <input type="text" class="form-control" id="code" name="code" required>
+   
+</div>
+<div class="form-group">
+    <label for="datepicker_add" class="control-label">Date</label>
+
+    
+      <div class="date">
+        <input type="text" class="form-control" id="datepicker_add" name="date" required>
+    
+    </div>
+</div>
+<div class="form-group">
+    <label for="time_in" class="control-label">Time In</label>
+
+ 
+      <div class="bootstrap-timepicker">
+        <input type="text" class="form-control timepicker" id="time_in" name="time_in">
+      </div>
+    
+</div>
+<div class="form-group">
+    <label for="time_out" class="control-label">Time Out</label>
+
+
+      <div class="bootstrap-timepicker">
+        <input type="text" class="form-control timepicker" id="time_out" name="time_out">
+      </div>
+</div>
+</div>
+<div class="modal-footer">
+<button type="button" class="btn btn-warning btn-flat pull-left" data-dismiss="modal"><i class="fa fa-close"></i> Close</button>
+<button type="submit" class="btn btn-success btn-flat" name="add"><i class="fa fa-save"></i> Save</button>
+</form>
+</div>
+</div>
+</div>
+</div>
+   
+    </div>
+<div class="card foot-card bg-light">
+    <p class="foot">Developed By Sujoy Dev, Prasad Jadhav Rutwik Gaikwad</p>
+  </div>
+  
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -938,98 +971,9 @@
     ></script>
     <script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
     <script src="https://cdn.datatables.net/1.10.20/js/dataTables.bootstrap4.min.js"></script>
-    <script src="script.js"></script>
+    <script src="./scripts/script.js"></script>
    
   </body>
 </html>
-
-<!-- 
-<!DOCTYPE html>
-<html>
-  <head>
-    <link
-      href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"
-      rel="stylesheet"
-    />
-
-    <style>
-      html {
-        font-family: "Montserrat", sans-serif;
-      }
-      .grid-container {
-        box-shadow: 0 6px 10px -4px rgba(0, 0, 0, 0.15);
-        display: grid;
-        grid-template-columns: auto auto auto auto;
-        grid-gap: 10px;
-        background-color: #000;
-        padding: 10px;
-        width: 310px;
-        justify-content: space-between;
-        color: #fff;
-      }
-
-      .d {
-        text-align: left;
-        height: 100px;
-      }
-      .l {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 70px;
-        height: 70px;
-        border-radius: 50%;
-        background-color: #353b48;
-        color: #fff;
-      }
-      .s {
-        background-color: #f0932b;
-        font-size: 19px;
-      }
-      .z {
-        background-color: #95afc0;
-      }
-      .item1 {
-        grid-column: 1 / 5;
-      }
-    </style>
-  </head>
-  <body>
-    <h1>The grid-column Property</h1>
-
-    <p>
-      Use the <em>grid-column</em> property to specify where to place an item.
-    </p>
-    <p>Item1 will start on column-line 1 and end on column-line 5:</p>
-
-    <div class="grid-container">
-      <div class="item1 d">total</div>
-      <div class="item2 l">1</div>
-      <div class="item3 l">2</div>
-      <div class="item4 l">3</div>
-      <div class="item5 l s">sum</div>
-      <div class="item6 l">4</div>
-      <div class="item7 l">5</div>
-      <div class="item8 l">6</div>
-      <div class="item9 l s">diff</div>
-      <div class="item10 l">7</div>
-      <div class="item11 l">8</div>
-      <div class="item12 l">9</div>
-      <div class="item13 l s">div</div>
-      <div class="item14 l z">clear</div>
-      <div class="item15 l">0</div>
-      <div class="item16 l z">=</div>
-      <div class="item17 l s">mul</div>
-    </div>
-  </body>
-</html>
-
-
-
-
- -->
-
-
-
 
 
